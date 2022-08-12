@@ -7,7 +7,7 @@ POST https://3000-isaistormbl-learnnestjs-e4d2xenczuc.ws-us60.gitpod.io/messages
 content-type: application/json
 
 {
-  "content": "Hi there"
+  "content": "123"
 }
 
 
