@@ -1,0 +1,15 @@
+### List all messages
+GET https://3000-isaistormbl-learnnestjs-e4d2xenczuc.ws-us60.gitpod.io/messages
+
+
+### Create a message
+POST https://3000-isaistormbl-learnnestjs-e4d2xenczuc.ws-us60.gitpod.io/messages
+content-type: application/json
+
+{
+  "content": "Hi there"
+}
+
+
+### Get a unique message
+GET https://3000-isaistormbl-learnnestjs-e4d2xenczuc.ws-us60.gitpod.io/messages/123
