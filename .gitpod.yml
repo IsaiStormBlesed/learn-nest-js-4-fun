@@ -1,9 +1,10 @@
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
   - init: npm install
-    command: npm run start
+    command: npm run start:dev
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
   - port: 3000
+    visibility: public
     onOpen: ignore

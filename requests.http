@@ -1,15 +1,15 @@
 ### List all messages
-GET https://3000-isaistormbl-learnnestjs-ky80kp384og.ws-us60.gitpod.io/messages
+GET https://3000-isaistormbl-learnnestjs-1c30co9p83q.ws-us60.gitpod.io/messages
 
 
 ### Create a message
-POST https://3000-isaistormbl-learnnestjs-ky80kp384og.ws-us60.gitpod.io/messages
+POST https://3000-isaistormbl-learnnestjs-1c30co9p83q.ws-us60.gitpod.io/messages
 content-type: application/json
 
 {
-  "content": "123"
+  "content": "hi, stranger"
 }
 
 
 ### Get a unique message
-GET https://3000-isaistormbl-learnnestjs-ky80kp384og.ws-us60.gitpod.io/messages/809
+GET https://3000-isaistormbl-learnnestjs-1c30co9p83q.ws-us60.gitpod.io/messages/548
